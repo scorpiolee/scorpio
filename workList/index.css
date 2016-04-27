@@ -1,0 +1,49 @@
+body{
+            margin:0;
+            padding:0;
+            background: #434343;
+            color: #ffffff;
+            font-family: "microsoft yahei";
+
+}
+.father{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+}
+.box{
+            display: flex;
+            margin: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            border-radius: 10px;
+
+}
+.box span{
+            width:60%;
+            font-size: 30px;
+
+
+            margin: 10px;
+}
+.a-class{
+            display: flex;
+            width:52%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 10px;
+            background: #cc8091;
+            border-radius: 10px;
+            box-shadow: 5px 5px #ccc ;
+            padding-left: 4%;
+
+}
+.a-class a{
+            width: 200px;
+            text-decoration: none;
+            color: #000000;
+            margin: 10px;
+}
+.a-class a:hover{
+            color: #dedede;
+}
